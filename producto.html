@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Store</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Delius&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delius&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
 </head>
+
 <body>
     <header class="header">
         <a href="index.html">
-            <img class="header_logo" src="img/logo.png" alt="Logotipo">
+            <img class="header_logo" src="img/logo.png" alt="Logotipo" />
         </a>
     </header>
     <nav class="nav">
@@ -21,8 +25,45 @@
         <a href="nosotros.html">NOSOTROS</a>
     </nav>
     <main class="contenedor">
-        <h1>Producto</h1>
+        <h1>React Js</h1>
+        <div class="camisa">
+            <img class="camisa_imagen" src="img/3.jpg" alt="Imagen del producto" />
+            <div class="camisa_contenido">
+                <p>
+                    Fusce ullamcorper interdum risus, sed sollicitudin lacus commodo a.
+                    Fusce et bibendum diam. Nunc at faucibus odio. Sed at varius nulla.
+                    Suspendisse potenti.
+                </p>
+                <form class="formulario">
+                    <select class="formulario_campo">
+                        <option disabled selected>
+                            -- Selecciona tu talla --
+                        </option>
+                        <option>
+                           XS
+                        </option>
+                        <option>
+                           S
+                        </option>
+                        <option>
+                           M
+                        </option>
+                        <option>
+                          L
+                        </option>
+                        <option>
+                           XL
+                        </option>
+                    </select>
+                    <input class="formulario_campo" type="number" placeholder="Cantidad"  min="1">
+                    <input class="formulario_submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
     </main>
-    <footer class="footer"><p>FRONT END STORE - TODOS LOS DERECHOS RESERVADOS 2025</p></footer>
+    <footer class="footer">
+        <p>FRONT END STORE - TODOS LOS DERECHOS RESERVADOS 2025</p>
+    </footer>
 </body>
+
 </html>
